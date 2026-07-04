@@ -1,69 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GoalSafe • Personal Savings Tracker | Priverus</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GoalSafe • Future-Aware Savings Planning | Priverus</title>
+  <meta name="description" content="GoalSafe is a manual-entry iPhone app for future-aware savings planning. Plan recurring expenses, track savings manually, and see future shortfalls before they surprise you.">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-zinc-950 text-zinc-200">
-    <div class="max-w-5xl mx-auto px-6 py-12">
-        <!-- Header -->
-        <div class="flex justify-between items-center mb-16">
-            <div class="flex items-center gap-x-3">
-                <div class="w-10 h-10 bg-emerald-600 rounded-2xl flex items-center justify-center">
-                    <i class="fa-solid fa-piggy-bank text-white text-3xl"></i>
-                </div>
-                <div>
-                    <span class="font-semibold text-3xl tracking-tight">GoalSafe</span>
-                    <span class="text-emerald-500 text-sm font-medium">by Priverus</span>
-                </div>
-            </div>
-            <div class="flex items-center gap-x-4 text-sm">
-                <a href="/goalsafe/privacy/" class="hover:text-white transition-colors">Privacy</a>
-                <a href="/goalsafe/support/" class="hover:text-white transition-colors">Support</a>
-                <a href="#" class="px-5 py-2.5 bg-white text-zinc-950 rounded-3xl font-semibold text-sm hover:bg-zinc-100 transition-colors">Download on App Store</a>
-            </div>
-        </div>
+<body class="bg-zinc-950 text-zinc-100 antialiased">
+  <main class="min-h-screen">
+    <header class="max-w-5xl mx-auto px-6 py-8 flex items-center justify-between">
+      <a href="/goalsafe/" class="text-2xl font-semibold tracking-tight">GoalSafe</a>
+      <nav class="flex gap-6 text-sm text-zinc-300">
+        <a href="/goalsafe/privacy/" class="hover:text-white">Privacy</a>
+        <a href="/goalsafe/support/" class="hover:text-white">Support</a>
+      </nav>
+    </header>
 
-        <!-- Hero -->
-        <div class="text-center max-w-3xl mx-auto mb-20">
-            <div class="inline-flex items-center gap-x-2 bg-zinc-900 border border-zinc-800 rounded-3xl px-4 py-1.5 mb-6 text-sm">
-                <div class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></div>
-                <span>Now in public beta</span>
-            </div>
-            
-            <h1 class="text-6xl font-semibold tracking-tighter mb-6">Save with intention.<br>Reach your goals faster.</h1>
-            <p class="text-xl text-zinc-400 max-w-md mx-auto">A beautiful, private savings tracker that helps you set goals, track progress, and stay motivated — all on your device.</p>
-            
-            <div class="mt-10 flex justify-center gap-x-4">
-                <a href="#" class="inline-flex items-center justify-center gap-x-3 bg-white text-zinc-950 px-8 py-4 rounded-3xl font-semibold hover:bg-zinc-100 transition-all active:scale-[0.985]">
-                    <i class="fa-brands fa-apple text-2xl"></i>
-                    <span>Download on the App Store</span>
-                </a>
-            </div>
-            <p class="text-xs text-zinc-500 mt-3">Free • No subscriptions • Privacy-first</p>
-        </div>
+    <section class="max-w-5xl mx-auto px-6 py-16">
+      <p class="text-sm uppercase tracking-[0.25em] text-emerald-400 mb-6">Future-aware savings planning</p>
+      <h1 class="text-5xl md:text-7xl font-semibold tracking-tight leading-tight mb-8">
+        Know what to save,<br class="hidden md:block"> and why.
+      </h1>
+      <p class="text-xl text-zinc-300 max-w-3xl leading-relaxed mb-10">
+        GoalSafe is a manual-entry iPhone app that helps you plan for recurring expenses before they surprise you. It calculates a steady Levelized Deposit from your planned obligations, shows future balance projections, and helps you understand whether your savings plan is on track.
+      </p>
+      <div class="inline-flex items-center rounded-full border border-zinc-700 px-5 py-3 text-zinc-300">
+        Coming soon to the App Store
+      </div>
+      <p class="text-sm text-zinc-500 mt-4">
+        Free to download • Optional one-time Remove Ads purchase • United States Release 1
+      </p>
+    </section>
 
-        <!-- Features -->
-        <div class="grid md:grid-cols-3 gap-6">
-            <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
-                <i class="fa-solid fa-bullseye text-emerald-500 text-3xl mb-6"></i>
-                <h3 class="font-semibold text-xl mb-3">Set Meaningful Goals</h3>
-                <p class="text-zinc-400">Create savings goals with target dates and track your progress visually.</p>
-            </div>
-            <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
-                <i class="fa-solid fa-chart-line text-emerald-500 text-3xl mb-6"></i>
-                <h3 class="font-semibold text-xl mb-3">Beautiful Insights</h3>
-                <p class="text-zinc-400">See your savings grow with clean charts and streak tracking.</p>
-            </div>
-            <div class="bg-zinc-900 border border-zinc-800 rounded-3xl p-8">
-                <i class="fa-solid fa-shield-halved text-emerald-500 text-3xl mb-6"></i>
-                <h3 class="font-semibold text-xl mb-3">Private by Design</h3>
-                <p class="text-zinc-400">Your financial data stays on your device. No accounts. No tracking.</p>
-            </div>
+    <section class="border-t border-zinc-800">
+      <div class="max-w-5xl mx-auto px-6 py-14 grid md:grid-cols-3 gap-8">
+        <div>
+          <h2 class="text-xl font-semibold mb-3">Plan recurring obligations</h2>
+          <p class="text-zinc-400 leading-relaxed">
+            Enter planned expenses such as property taxes, insurance premiums, vehicle registration, subscriptions, and other known obligations.
+          </p>
         </div>
-    </div>
+        <div>
+          <h2 class="text-xl font-semibold mb-3">See future coverage</h2>
+          <p class="text-zinc-400 leading-relaxed">
+            GoalSafe projects your savings path so you can see future shortfall risk before it becomes a surprise.
+          </p>
+        </div>
+        <div>
+          <h2 class="text-xl font-semibold mb-3">Stay in control</h2>
+          <p class="text-zinc-400 leading-relaxed">
+            Your manually entered planning data stays on your device. No GoalSafe account. No bank connection.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-5xl mx-auto px-6 py-14">
+      <h2 class="text-3xl font-semibold tracking-tight mb-6">Built for deliberate savings</h2>
+      <div class="text-zinc-300 leading-relaxed space-y-5 max-w-4xl">
+        <p>
+          GoalSafe is built for people who want a clear, private, and deliberate way to manage savings for known future expenses. Instead of guessing how much to set aside, GoalSafe computes a Levelized Deposit: one steady per-deposit number based on the amount, timing, and escalation of your planned obligations across a multi-year horizon.
+        </p>
+        <p>
+          Your existing savings balance does not reduce or distort that number. What you already have is handled separately and transparently through GoalSafe's fund allocation, dashboard, projections, ledger, and reconciliation features.
+        </p>
+        <p>
+          GoalSafe is manual-entry by design. It does not connect to your bank, does not request your bank login, and does not import account transactions. You enter your starting balance, planned obligations, deposits, and ledger activity yourself.
+        </p>
+      </div>
+    </section>
+
+    <section class="border-t border-zinc-800">
+      <div class="max-w-5xl mx-auto px-6 py-14">
+        <h2 class="text-3xl font-semibold tracking-tight mb-6">Release 1 features</h2>
+        <ul class="grid md:grid-cols-2 gap-4 text-zinc-300">
+          <li>• Levelized Deposit planning for recurring obligations</li>
+          <li>• Future-aware projections across a multi-year horizon</li>
+          <li>• Manual ledger tracking</li>
+          <li>• Fund breakdown across Primary, Reserve, and Discretionary savings</li>
+          <li>• Reconciliation against your real-world bank balance</li>
+          <li>• Optional Reserve Funds for named savings goals</li>
+          <li>• Optional one-time Remove Ads purchase</li>
+          <li>• United States availability for Release 1</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="max-w-5xl mx-auto px-6 py-14">
+      <div class="rounded-3xl border border-zinc-800 bg-zinc-900/60 p-8">
+        <h2 class="text-2xl font-semibold mb-4">Important note</h2>
+        <p class="text-zinc-300 leading-relaxed">
+          GoalSafe is a planning and recordkeeping tool. It does not provide investment, tax, legal, banking, or financial advice. You remain responsible for your own financial decisions and for verifying your real-world account balances and obligations.
+        </p>
+      </div>
+    </section>
+
+    <footer class="border-t border-zinc-800">
+      <div class="max-w-5xl mx-auto px-6 py-8 text-sm text-zinc-500 flex flex-col md:flex-row gap-4 md:items-center md:justify-between">
+        <p>© 2026 Thomas Hamilton dba Priverus. All rights reserved.</p>
+        <div class="flex gap-5">
+          <a href="/goalsafe/privacy/" class="hover:text-zinc-300">Privacy Policy</a>
+          <a href="/goalsafe/support/" class="hover:text-zinc-300">Support</a>
+        </div>
+      </div>
+    </footer>
+  </main>
 </body>
 </html>
